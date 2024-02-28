@@ -22,10 +22,10 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 29
+    compileSdkVersion 33
 
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 21
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     lintOptions {
@@ -34,7 +34,7 @@ android {
 }
 
 dependencies {
-    compile files('libs/tscsdk.jar')
+    //compile files('libs/tscsdk.jar')
     implementation files('libs/tscsdk.jar')
     implementation "androidx.core:core:1.1.0"
 }

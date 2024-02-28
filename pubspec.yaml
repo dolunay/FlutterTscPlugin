@@ -1,7 +1,7 @@
 name: flutter_tsc
 description: Flutter TSC Printer plugin.
-version: 0.1.2
-homepage: https://github.com/elliotxin/FlutterTscPlugin
+version: 0.1.3
+homepage: https://github.com/dolunay/FlutterTscPlugin
 
 flutter:
   plugin:
@@ -11,8 +11,8 @@ flutter:
         pluginClass: FlutterTscPlugin
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
-  flutter: ">=1.12.13+hotfix.5 <2.0.0"
+  sdk: ">=3.2.0 <4.0.0"
+  #flutter: ">=1.12.13+hotfix.5 <2.0.0"
   
 dependencies:
   flutter:
